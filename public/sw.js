@@ -8,7 +8,7 @@ self.addEventListener('install', (event) => {
         '/translater.css',
         '/language.js',
         '/main.js',
-        '/images/translater-app-cover.png',
+        '/images/translater-app-cover.png.jpg',
         // Add any other resources you want to cache
       ]);
     })
