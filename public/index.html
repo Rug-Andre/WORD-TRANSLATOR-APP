@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Andre's Translater</title>
+    <link rel="shortcut icon" href="images/translater-app-cover.png" type="image/png">
+    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="translater.css">
 </head>
 <body>
@@ -11,46 +13,42 @@
     <h1> <span class="a">🗣</span> Andre's <span class="b">translater</span></h1>
     <div class="container">
         <div class="translater_property">
-                <ul class="new_item">
-                    <li>
-                        <select>
-                       
-                        </select>
-                    </li>
-                    <li class="bx bx-transfer">⇆</li>
-                    <li>
-                        <select>
-                          
-                        </select>
-                    </li>
-                </ul>
-                <div class="write_box">
-                    <div class="Property_from">
-                     <textarea maxlength="5000" class="fromText" placeholder="write down"></textarea>
-                   <div class="icons">
-                    <span class="bx bx-volume-full from">🔊</span>
-                    <div class="code_length">0/5,000</div>
-                   </div>
-                    
-                    </div>
-                    <div class="Property_trans">
-                        <textarea class="toTranslate" disabled></textarea>
-                        <div class="icons">
-                         <span class="bx bx-volume-full to">🔊</span>
-                         <span class="bx bx-copy">◳</span>
-                         
+            <ul class="new_item">
+                <li>
+                    <select></select>
+                </li>
+                <li class="bx bx-transfer">⇆</li>
+                <li>
+                    <select></select>
+                </li>
+            </ul>
+            <div class="write_box">
+                <div class="Property_from">
+                    <textarea maxlength="5000" class="fromText" placeholder="write down"></textarea>
+                    <div class="icons">
+                        <span class="bx bx-volume-full from">🔊</span>
+                        <div class="code_length">0/5,000</div>
                     </div>
                 </div>
-        
+                <div class="Property_trans">
+                    <textarea class="toTranslate" disabled></textarea>
+                    <div class="icons">
+                        <span class="bx bx-volume-full to">🔊</span>
+                        <span class="bx bx-copy">◳</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-   
 </div>
 <footer>
     <p class="demo">copy-right &copy; 2024 By WS & WS-Company members</p>
-    </footer>
-
-    <script src="./language.js"></script>
-    <script src="./main.js"></script>
+</footer>
+<div id="install-prompt" class="install-prompt">
+    Install Andre's Translater? <button id="install-btn">Install</button>
+</div>
+<script src="./language.js"></script>
+<script src="./main.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>
