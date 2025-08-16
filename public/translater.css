@@ -1,53 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
-    
 }
-body{
 
+body {
     height: 100vh;
     background: #5a4646;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background:  linear-gradient(45deg,#010758,#490d61,#44025e);
+    background: linear-gradient(45deg, #010758, #490d61, #44025e);
 }
-.container1{
+
+.container1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px;
 }
-.container1 h1{
+
+.container1 h1 {
     color: rgb(212, 127, 174);
     font-size: 50px;
     margin-bottom: 80px;
 }
-.container1 h1 .a{
+
+.container1 h1 .a {
     color: rgb(211, 206, 206);
 }
-.container1 h1 .b{
+
+.container1 h1 .b {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
-.container{ 
+
+.container {
     width: 900px;
-    background:  #403d84;
-    box-shadow: 0 2px 20px rgb(0,0,0, .3);
+    background: #403d84;
+    box-shadow: 0 2px 20px rgb(0, 0, 0, .3);
     border-radius: 5px;
     overflow: hidden;
     margin-top: 100px;
 }
 
-
-.translater_property{
+.translater_property {
     border: 1px solid #ffffff83;
 }
-.translater_property .new_item{
+
+.translater_property .new_item {
     display: flex;
     width: 100%;
     height: 50px;
@@ -57,57 +61,64 @@ body{
     border-bottom: 3px solid #fffbfb;
     padding: 0 20px;
 }
-.translater_property .new_item li select{
-    outline: none;
-     border-style: none;
-     padding: 10px 0px;
-     font-size:17px ;
-     font-weight: 500;
-     color: rgb(202, 13, 98);
-     cursor: pointer;
-     transition: all .1s ease-in-out;
-     background:  #9e9bd9;
-     border-radius: 20px;
-     text-align: center;
-}
-.translater_property .new_item li select:hover{
-    color:rgb(255, 255, 255);
 
+.translater_property .new_item li select {
+    outline: none;
+    border-style: none;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(202, 13, 98);
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background: #9e9bd9;
+    border-radius: 20px;
+    text-align: center;
 }
-.bx-transfer{
+
+.translater_property .new_item li select:hover {
+    color: rgb(255, 255, 255);
+}
+
+.bx-transfer {
     font-size: 22px;
     color: rgb(202, 13, 98);
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
-.bx-transfer:hover{
-  color:rgb(255, 255, 255);
 
+.bx-transfer:hover {
+    color: rgb(255, 255, 255);
 }
-.write_box{
+
+.write_box {
     display: flex;
     margin-top: 15px;
 }
-.Property_from,.Property_trans{
-width: 100%;
-position: relative;
+
+.Property_from, .Property_trans {
+    width: 100%;
+    position: relative;
 }
-.write_box textarea{
-width: 100%;
-border-style: none;
-outline: none;
-height: 250px;
-resize: none;
-padding: 10px 20px;
-font-size: 20px;
-padding: 10px;
-color: white;
-position:relative ;
+
+.write_box textarea {
+    width: 100%;
+    border-style: none;
+    outline: none;
+    height: 250px;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    position: relative;
 }
-.write_box textarea:nth-child(1){
+
+.write_box textarea:nth-child(1) {
     border-right: 1px solid #c7c7c7;
 }
-.write_box .icons{
+
+.write_box .icons {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -115,95 +126,103 @@ position:relative ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding: 15px 20px;
+    padding: 15px 20px;
 }
-.icons .bx{
-height: 35px;
-width: 35px;
-background:#ddd ;
-text-align: center;
-line-height: 35px;
-font-size: 18px;
-color: #000;
-border-radius: 50%;
-transition: all .3s ease-out;
-cursor: pointer;
+
+.icons .bx {
+    height: 35px;
+    width: 35px;
+    background: #ddd;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 50%;
+    transition: all .3s ease-out;
+    cursor: pointer;
 }
-.icons .bx:hover{
-    background:rgb(202, 13, 98);
+
+.icons .bx:hover {
+    background: rgb(202, 13, 98);
     color: wheat;
 }
-.code_length{
-    font-size:18px;
-    color: rgb(244, 144, 189);
 
+.code_length {
+    font-size: 18px;
+    color: rgb(244, 144, 189);
 }
-.fromText{
+
+.fromText {
     background: #403d84;
     color: white;
     font-size: 50px;
 }
-textarea::placeholder{
+
+textarea::placeholder {
     font-size: 20px;
     text-align: center;
     color: #ffffff;
 }
+
 /* footer */
-footer{
+footer {
     margin-top: 100px;
     width: 100%;
     height: 40px;
     bottom: 0;
     text-align: center;
 }
-.demo{
+
+.demo {
     color: rgb(255, 255, 255);
     font-weight: small;
 }
+
 /* for phone */
-@media (max-width:995px){
-    body{
+@media (max-width: 995px) {
+    body {
         height: 100vh;
         background: #5a4646;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-        background:  linear-gradient(45deg,#010758,#490d61,#44025e);
+        background: linear-gradient(45deg, #010758, #490d61, #44025e);
     }
-    .container1{
+
+    .container1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 20px;
     }
-    .container1 h1{
+
+    .container1 h1 {
         color: rgb(212, 127, 174);
         font-size: 25px;
         margin-bottom: 40px;
     }
-    .container1 h1 .a{
+
+    .container1 h1 .a {
         color: rgb(211, 206, 206);
     }
-    .container1 h1 .b{
+
+    .container1 h1 .b {
         color: rgb(255, 255, 255);
         text-decoration: underline;
     }
-    .container{ 
+
+    .container {
         width: 360px;
-        background:  #403d84;
-        box-shadow: 0 2px 10px rgb(0,0,0, .3);
+        background: #403d84;
+        box-shadow: 0 2px 10px rgb(0, 0, 0, .3);
         border-radius: 5px;
         overflow: hidden;
         margin-top: 100px;
     }
-    
-    
-    .translater_property{
+
+    .translater_property {
         border: 1px solid #ffffff83;
-        
     }
-    .translater_property .new_item{
+
+    .translater_property .new_item {
         display: flex;
         width: 100%;
         height: 25px;
@@ -213,67 +232,66 @@ footer{
         border-bottom: 1.5px solid #fffbfb;
         padding: 0 10px;
     }
-    .translater_property .new_item li select{
-         outline: none;
-         border-style: none;
-         padding: 5px 0px;
-         font-size:9.5px ;
-         font-weight: 250;
-         color: rgb(202, 13, 98);
-         cursor: pointer;
-         transition: all .1s ease-in-out;
-         background:  #9e9bd9;
-         border-radius: 20px;
-         text-align: center;
-         -webkit-transition: all .1s ease-in-out;
-         -moz-transition: all .1s ease-in-out;
-         -ms-transition: all .1s ease-in-out;
-         -o-transition: all .1s ease-in-out;
-}
-    .translater_property .new_item li select:hover{
-        color:rgb(255, 255, 255);
-    
+
+    .translater_property .new_item li select {
+        outline: none;
+        border-style: none;
+        padding: 5px 0px;
+        font-size: 9.5px;
+        font-weight: 250;
+        color: rgb(202, 13, 98);
+        cursor: pointer;
+        transition: all .1s ease-in-out;
+        background: #9e9bd9;
+        border-radius: 20px;
+        text-align: center;
     }
-    .bx-transfer{
+
+    .translater_property .new_item li select:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bx-transfer {
         font-size: 11px;
         color: rgb(202, 13, 98);
         cursor: pointer;
         transition: all .3s ease-in-out;
         padding-left: 3px;
         padding-right: 3px;
-        -webkit-transition:;
-        -moz-transition:;
-        -ms-transition:;
-        -o-transition:;
-}
-    .bx-transfer:hover{
-      color:rgb(255, 255, 255);
-    
     }
-    .write_box{
+
+    .bx-transfer:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .write_box {
         display: flex;
         margin-top: 7.5px;
     }
-    .Property_from,.Property_trans{
-    width: 100%;
-    position: relative;
+
+    .Property_from, .Property_trans {
+        width: 100%;
+        position: relative;
     }
-    .write_box textarea{
-    width: 100%;
-    border-style: none;
-    outline: none;
-    height: 125px;
-    resize: none;
-    padding: 5px 10px;
-    font-size: 15px;
-    padding: 5px;
-    color: white;
-    position:relative ;
+
+    .write_box textarea {
+        width: 100%;
+        border-style: none;
+        outline: none;
+        height: 125px;
+        resize: none;
+        padding: 5px 10px;
+        font-size: 15px;
+        padding: 5px;
+        color: white;
+        position: relative;
     }
-    .write_box textarea:nth-child(1){
+
+    .write_box textarea:nth-child(1) {
         border-right: 1px solid #c7c7c7;
     }
-    .write_box .icons{
+
+    .write_box .icons {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -281,46 +299,75 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-       padding: 7.5px 10px;
+        padding: 7.5px 10px;
     }
-    .icons .bx{
-    height: 17.5px;
-    width: 17.5px;
-    background:#ddd ;
-    text-align: center;
-    line-height: 17.5px;
-    font-size: 9px;
-    color: #000;
-    border-radius: 50%;
-    transition: all .1s ease-out;
-    cursor: pointer;
+
+    .icons .bx {
+        height: 17.5px;
+        width: 17.5px;
+        background: #ddd;
+        text-align: center;
+        line-height: 17.5px;
+        font-size: 9px;
+        color: #000;
+        border-radius: 50%;
+        transition: all .1s ease-out;
+        cursor: pointer;
     }
-    .icons .bx:hover{
-        background:rgb(202, 13, 98);
+
+    .icons .bx:hover {
+        background: rgb(202, 13, 98);
         color: wheat;
     }
-    .code_length{
-        font-size:9px;
+
+    .code_length {
+        font-size: 9px;
         color: rgb(244, 144, 189);
-    
     }
-    .fromText{
+
+    .fromText {
         background: #403d84;
         color: white;
-        font-size:25px;
+        font-size: 25px;
     }
-    textarea::placeholder{
+
+    textarea::placeholder {
         font-size: 10px;
         text-align: center;
         color: #ffffff;
     }
-    footer{
+
+    footer {
         margin-top: 150px;
         width: 100%;
         height: 80px;
     }
-    .demo{
+
+    .demo {
         color: rgb(255, 252, 253);
         font-weight: small;
     }
+}
+
+/* Install Prompt */
+.install-prompt {
+    margin-top: 20px;
+    background: #ff2963;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    display: none;
+}
+
+.install-prompt button {
+    background: white;
+    color: #ff2963;
+    margin-left: 10px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
