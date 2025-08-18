@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 120vh;
+/*     height: 120vh; */
     background: #5a4646;
     display: flex;
     flex-direction:column;
