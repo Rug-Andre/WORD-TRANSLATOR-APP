@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 105vh;
     background: #5a4646;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .container1 h1 {
@@ -351,7 +351,7 @@ footer {
 
 /* Install Prompt */
 .install-prompt {
-    margin-top: 20px;
+    margin-top: 10px;
     background: #ff2963;
     color: white;
     padding: 10px 20px;
